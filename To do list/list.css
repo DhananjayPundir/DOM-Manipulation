@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:100vh;
+    background: url(list.jpg) no-repeat center top/cover;  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#task-container{
+    width:350px;
+    padding:10px 20px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 30px;
+    display:flex;
+
+}
+input{
+    flex:5;
+    margin-right: 8px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding:5px;
+}
+#add-task{
+    font-size: 1.2 rem;
+    flex :1;
+    padding:5px;
+    background-color: #fff;
+    color:lightcoral;
+    border:red;
+    border-radius:20 px;
+
+}
+#add-task:hover{
+    background-color:rgb(95, 211, 237);
+}
