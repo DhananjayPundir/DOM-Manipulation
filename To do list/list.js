@@ -34,7 +34,7 @@ addTask.addEventListener('click', function() {
 
 
     delBtn.addEventListener('click',function(){
-        lettarget = e.target;
+        lettarget = e.target();
         target.parentElement.parentElement.remove();
 
     });
